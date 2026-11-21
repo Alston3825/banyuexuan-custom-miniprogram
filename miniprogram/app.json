@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/story/story",
+    "pages/store/select",
+    "pages/mode-select/mode-select",
+    "pages/package-preset/package-preset",
+    "pages/customizer/customizer",
+    "pages/room-detail/room-detail",
+    "pages/service-detail/service-detail",
+    "pages/preview/preview",
+    "pages/my/my",
+    "pages/consult/consult"
+  ],
+  "window": {
+    "navigationBarTitleText": "伴月轩 · 定制月子",
+    "navigationBarBackgroundColor": "#101819",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#101819"
+  },
+  "tabBar": {
+    "color": "#8d9997",
+    "selectedColor": "#63d7b0",
+    "backgroundColor": "#131d1d",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "定制"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

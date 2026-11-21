@@ -1,0 +1,20 @@
+node_modules/
+.DS_Store
+project.private.config.json
+*.log
+server/data/
+# 本机认证与运行数据禁止明文提交
+.env
+.env.*
+!.env.example
+!**/.env.example
+**/auth.json
+**/管理员登录.txt
+*.pem
+*.key
+*.p12
+*.pfx
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
